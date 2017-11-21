@@ -3,29 +3,23 @@
 #### Contact Info
 Presenter:  Reshama Shaikh  
 LinkedIn:  https://www.linkedin.com/in/reshamas   
-Twitter:  [@reshamas](https://twitter.com/reshamas)  
+Twitter:  https://twitter.com/reshamas
 GitHub:  https://github.com/reshamas  
 Email:   rs2715@stern.nyu.edu  
 
 #### About Me
 * Data Scientist (Statistician, MBA)
-* Teacher
 * Organizer of WiMLDS meetup group
      - [NYC Women in Machine Learning & Data Science](http://www.meetup.com/NYC-Women-in-Machine-Learning-Data-Science/)
      - http://wimlds.org/
 * Organizer of [NYC PyLadies meetup group](https://www.meetup.com/NYC-PyLadies/)
 
 #### Event
-[NYC PyLadies Git Workshop, Sep 13, 2017](https://www.meetup.com/NYC-PyLadies/events/242532809/)
+[Git Workshop for Datanauts, Nov 27, 2017]
 
 #### Host
-[iHeartMedia](https://www.iheartmedia.com/) Thank you for hosting us! :star:
-
-#### Helpers (Teaching Assistants)
-* [Emily Chen](https://www.linkedin.com/in/emchennyc/)
-* [Tiby Kantrowitz](https://www.linkedin.com/in/tiby-kantrowitz-b705221/)
-* [Sam Falk](https://www.linkedin.com/in/samjfalk/)
-* [Antonia Blair](https://www.linkedin.com/in/antonia-blair-31767a32/)
+* openNASA:  https://open.nasa.gov/blog/  
+* Datanauts:  https://open.nasa.gov/explore/datanauts/ 
 
 ---
 
