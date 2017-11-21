@@ -95,7 +95,7 @@ origin	https://github.com/reshama/starting_git.git (push)
 Already up-to-date.
 ```
 
-##Step 5:  Make changes on local computer 
+## Step 5:  Make changes on local computer 
 
 ### Let's make a change on local computer and push changes up to GitHub
 Use an editor of your choice to create a python file which will print your name.  
