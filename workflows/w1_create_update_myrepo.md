@@ -183,13 +183,23 @@ Select green button "Compare and pull request"
 ---
 
 ## Summary of Steps
-<kbd>  ls </kbd>  		 <kbd>  ls </kbd>  
-<kbd> touch mercury.md </kbd>  		 <kbd> touch mercury.md </kbd>  
-<kbd>  ls </kbd>  		 <kbd>  ls </kbd>  
-<kbd>  git status </kbd>  		 <kbd>  git status </kbd>  
-<kbd>  git add mercury.md </kbd>  		 <kbd>  git add mercury.md </kbd>  
-<kbd>  git status </kbd>  		 <kbd>  git status </kbd>  
-<kbd>  git commit -m 'adding first planet' </kbd>  		 <kbd>  git commit -m 'adding first planet' </kbd>  
-<kbd>  git status </kbd>  		 <kbd>  git status </kbd>  
+<kbd> cd /Users/reshamashaikh/ds/gitsample </kbd>  
+<kbd>  pwd </kbd>   
+<kbd> git clone https://github.com/reshamas/gitclass.git </kbd>   
+<kbd> cd gitclass </kbd>   
+<kbd> git remote -v </kbd>  
+<kbd> git pull </kbd>  
+<kbd> git branch </kbd>  
+<kbd> git branch reshama_wip </kbd>  
+<kbd> git branch </kbd>  
+<kbd> git checkout reshama_wip </kbd>
+<kbd>  ls </kbd>  		 
+<kbd> touch mercury.md </kbd>  		  
+<kbd>  ls </kbd>  		   
+<kbd>  git status </kbd>  		 
+<kbd>  git add mercury.md </kbd>  		  
+<kbd>  git status </kbd>  		 
+<kbd>  git commit -m 'adding first planet' </kbd>  		  
+<kbd>  git status </kbd>  		
 <kbd>  git push origin reshama_wip </kbd>  
 
