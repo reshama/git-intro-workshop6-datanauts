@@ -136,7 +136,7 @@ nothing added to commit but untracked files present (use "git add" to track)
 % git add mercury.md 
 ```
 
-## Step 14:  commit a file
+## Step 15:  commit a file
 <kbd> git status <file_name> </kbd>   
 <kbd> git commit -m 'message' </kbd>  
 	
