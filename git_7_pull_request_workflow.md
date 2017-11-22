@@ -3,17 +3,54 @@
 ### Step 1:  fork the repo (on GitHub)
 https://github.com/WiMLDS/python_advanced
 
-### Step 2:  clone the repo  
-<kbd> git clone </kbd> copies a remote repository to create a local repository with a remote called `origin` automatically set up.
+### Step 2:  copy forked url for cloning 
+* copy HTTPS url
 
 ### Step x:  go to working directory (your local terminal)
-
-### Step x:  add remote
-<kbd> git remote add origin <url> </kbd>
+* go to whatever your working directory is
 >my example
+```bash
+cd /Users/reshamashaikh/ds/gitsample
+```
+
+### Step x:  clone the repo  
+<kbd> git clone <url> </kbd> 
+>my example
+```bash
+git clone https://github.com/reshamas/python_advanced.git
+```
+
+### Step x:  `cd` into the repo
+<kbd> cd <repo_name> </kbd>
+>my example
+```bash
+cd python_advanced 
+```
 
 #### Step xb:  look at remotes
 <kbd> git remote -v </kbd>
+>my example
+```bash
+origin	https://github.com/reshamas/python_advanced.git (fetch)
+origin	https://github.com/reshamas/python_advanced.git (push)
+```
+
+### Step x:  add remote
+<kbd> git remote add upstream <url> </kbd>
+>my example
+```bash
+git remote add upstream https://github.com/WiMLDS/python_advanced.git
+```
+
+#### Step xb:  look at remotes
+<kbd> git remote -v </kbd>  
+>my example
+```bash
+origin	https://github.com/reshamas/python_advanced.git (fetch)
+origin	https://github.com/reshamas/python_advanced.git (push)
+upstream	https://github.com/WiMLDS/python_advanced.git (fetch)
+upstream	https://github.com/WiMLDS/python_advanced.git (push)
+```
 
 ### Step 3:  update a repo
 * copies changes from a remote repository to a local repository.
