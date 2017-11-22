@@ -168,3 +168,27 @@ git push origin master
 
 ## Step 19:  submit pull request (on GitHub)
 
+
+---
+
+## Summary of Steps
+<kbd> cd /Users/reshamashaikh/ds/gitsample </kbd>  
+<kbd>  pwd </kbd>   
+<kbd> git clone https://github.com/reshamas/python_advanced.git </kbd>  
+<kbd> cd python_advanced </kbd>   
+<kbd> git remote -v </kbd>  
+<kbd> git remote add upstream https://github.com/WiMLDS/python_advanced.git </kbd>  
+<kbd> git remote -v </kbd>  
+<kbd> git pull </kbd>  or <kbd> git pull upstream master </kbd>  
+
+xxx  
+
+
+<kbd> git branch </kbd> <kbd> git branch reshama_wip </kbd>  
+<kbd> git branch </kbd> <kbd> git checkout reshama_wip </kbd>  
+<kbd>  ls </kbd>  
+<kbd> touch mercury.md </kbd>  
+<kbd>  ls </kbd>  
+<kbd>  git status </kbd> <kbd>  git add mercury.md </kbd>  		  
+<kbd>  git status </kbd> <kbd>  git commit -m 'adding first planet' </kbd>  		  
+<kbd>  git status </kbd> <kbd>  git push origin reshama_wip </kbd> 
