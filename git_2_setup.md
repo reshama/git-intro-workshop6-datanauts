@@ -7,7 +7,7 @@
 `git config --global user.email "myname@email.com"`  
 
 ## 2. Create a Directory for Git Repos
-* navigate to your home directory where you want to create a directory for the git work.  
+Navigate to your home directory where you want to create a directory for the git work.  
 For me, it is:  `/Users/reshamashaikh`  
 <kbd> cd /Users/reshamashaikh </kbd>  
 * create a directory:  
