@@ -4,7 +4,7 @@
 https://github.com/WiMLDS/python_advanced
 
 ## Step 2:  copy forked url for cloning 
-<img src="../images/github_clone_button.png" align="left" height="40" width="180" >    
+<img src="../images/github_clone_button.png" align="left" height="40" width="60" >    
 Click on the green button for your forked GitHub repo, and ensure it is showing the url for "Clone with HTTPS"  (other option is "Clone with SSH").  Copy that URL.    
 
 
@@ -171,7 +171,7 @@ git push origin master
 ## Step 19:  submit pull request (on GitHub)
 
 Select green button "Compare and pull request"  
-<img src="../images/pull_request_button.png" align="left" height="40" width="2000" >   <br> <br>
+<img src="../images/pull_request_button.png" align="left" height="40" width="120" >   <br> <br>
 
 ---
 
