@@ -4,14 +4,12 @@
 https://github.com/WiMLDS/python_advanced
 
 ### Step 2:  copy forked url for cloning 
-<a href="url"><img src="images/github_clone_button.png" align="left" height="40" width="180" ></a>  
+Click on the green button for your forked GitHub repo, and ensure it is showing the url for "Clone with HTTPS"  (other option is "Clone with SSH").  Copy that URL.    
 
+<img src="images/github_clone_button.png" align="left" height="40" width="180" >
 
-Click on the green button, and ensure it is showing the url for "Clone with HTTPS"  (other option is "Clone with SSH")  
+<img src="images/chrome_curlwget.png" alt="Drawing" style="width: 100px;" style="height: 100px"/>  
 
-
- 
- 
 
 >my example  
 ```text
@@ -91,7 +89,7 @@ upstream	https://github.com/WiMLDS/python_advanced.git (push)
 `git add reshama.py`
 
 ### Step 13:  commit a file
-<kbd> `git commit -m 'message' </kbd>
+<kbd> git commit -m 'message' </kbd>
 >my example
  `git commit -m 'adding my python name file`
  
