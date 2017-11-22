@@ -13,6 +13,7 @@
 <kbd>  mkdir ds  </kbd>  
 <kbd>  mkdir ds/gitsample </kbd>  
 <kbd>  cd ds/gitsample </kbd>  
+<kbd>  pwd </kbd>  
   
 >my example
 ```bash
