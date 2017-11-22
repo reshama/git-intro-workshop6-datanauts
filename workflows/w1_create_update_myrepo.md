@@ -39,14 +39,14 @@ remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 Unpacking objects: 100% (3/3), done.
 ```
 
-## Step 4:  `cd` into the repo
+## Step 5:  `cd` into the repo
 <kbd> cd <repo_name> </kbd>
 >my example
 ```bash
 cd gitclass 
 ```
 
-## Step 5:  look at remotes
+## Step 6:  look at remotes
 <kbd> git remote -v </kbd>
 >my example
 ```bash
@@ -55,13 +55,13 @@ origin	https://github.com/reshamas/gitclass.git (fetch)
 origin	https://github.com/reshamas/gitclass.git (push)
 ```
 
-## Step 8:  update a repo
+## Step 7:  update a repo
 This step copies changes from a remote repository to a local repository.  
 **Note:**  this is a good step to practice even though the first time you clone a repo it will already be up to date.   
 
 <kbd> git pull </kbd> 
 
-## Step x:  list branches
+## Step 8:  list branches
 <kbd> git branch </kbd>  
 >my example
 ```git
@@ -74,7 +74,7 @@ git branch
 >my example  
 `git branch reshama_wip`
 
-## Step x:  list branches
+## Step 10:  list branches
 <kbd> git branch </kbd>  
 >my example
 ```git
@@ -83,12 +83,12 @@ git branch
   reshama_wip
 ```
 
-## Step 10:  switch to working branch
+## Step 11:  switch to working branch
 <kbd> git checkout <branch_name> </kbd>  
 >my example  
 `git checkout reshama_wip`
 
-## Step 11:  create a file
+## Step 12:  create a file
 <kbd>  ls </kbd>  
 <kbd> touch mercury.md </kbd>  
 <kbd>  ls </kbd>  
@@ -102,6 +102,12 @@ git branch
 >my example
 ```bash
 ls
+```
+```bash
+touch mercury.md
+```
+```bash
+ls
 total 8
 -rw-r--r--  1   32 Nov 22 09:39 README.md
 % touch mercury.md
@@ -111,15 +117,35 @@ total 8
 -rw-r--r--  1    0 Nov 22 09:49 mercury.md
 
 	mercury.md
+```
+    
+## Step 12:  add/stage a file
+<kbd> status <file_name> </kbd> 
+<kbd> git add <file_name> </kbd>  
+>my example  
+```bash
+git status
+git add mercury.md 
+```
+```bash
 % git status
 On branch reshama_wip
 Untracked files:
   (use "git add <file>..." to include in what will be committed)
-
 	mercury.md
-
 nothing added to commit but untracked files present (use "git add" to track)
 % git add mercury.md 
+```
+
+## Step 13:  commit a file
+<kbd> status <file_name> </kbd>  
+<kbd> git commit -m 'message' </kbd>
+>my example
+```bash
+git status
+git commit -m 'adding first planet'
+```
+```git
 % git status
 On branch reshama_wip
 Changes to be committed:
@@ -131,37 +157,14 @@ Changes to be committed:
 [reshama_wip 3950dd9] adding first planet
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 mercury.md
-% git status
-On branch reshama_wip
-nothing to commit, working tree clean
-
-% git push origin reshama_wip
-Counting objects: 3, done.
-Delta compression using up to 4 threads.
-Compressing objects: 100% (2/2), done.
-Writing objects: 100% (3/3), 273 bytes | 0 bytes/s, done.
-Total 3 (delta 0), reused 0 (delta 0)
-To https://github.com/reshamas/gitclass.git
- * [new branch]      reshama_wip -> reshama_wip
- 
 ```
-    
-## Step 12:  add/stage a file
-<kbd> git add <file_name> </kbd>  
->my example  
-`git add test_python_file.py`
 
-## Step 13:  commit a file
-<kbd> git commit -m 'message' </kbd>
->my example
- `git commit -m 'adding my python test file`
- 
+
 ## Step 14:  push changes to your 'working branch'
 <kbd> git push origin <branch_wip> </kbd>  
 >my example
 `git push origin reshama_wip`
-
-
+	
 ## Step 15:  submit pull request (on GitHub)
 Go to GitHub and refresh your browser.  
 My url is:  https://github.com/reshamas/gitclass  
