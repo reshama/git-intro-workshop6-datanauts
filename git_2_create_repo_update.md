@@ -30,6 +30,7 @@
 - add GitHub username
 
 ## Step 4:  Clone repo
+**Note:**  <kbd>git clone </kbd> copies a remote repository to create a local repository with a remote called `origin` automatically set up.
 
 ### Select green button "Clone or download" and copy url
 
