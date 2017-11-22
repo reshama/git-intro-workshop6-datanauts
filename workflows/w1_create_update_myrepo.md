@@ -88,16 +88,10 @@ git branch
 >my example  
 `git checkout reshama_wip`
 
+
 ## Step 12:  create a file
 <kbd>  ls </kbd>  
 <kbd> touch mercury.md </kbd>  
-<kbd>  ls </kbd>  
-<kbd>  git status </kbd>  
-<kbd>  git add mercury.md </kbd>  
-<kbd>  git status </kbd>  
-<kbd>  git commit -m 'adding first planet' </kbd>  
-<kbd>  git status </kbd>  
-<kbd>  git push origin reshama_wip </kbd>  
 
 >my example
 ```bash
@@ -118,7 +112,7 @@ total 8
 ```
     
 ## Step 13:  add/stage a file
-<kbd> git status <file_name> </kbd>  
+<kbd> git status </kbd>  
 <kbd> git add <file_name> </kbd>   
 	
 >my example  
@@ -137,7 +131,7 @@ nothing added to commit but untracked files present (use "git add" to track)
 ```
 
 ## Step 14:  commit a file
-<kbd> git status <file_name> </kbd>   
+<kbd> git status </kbd>   
 <kbd> git commit -m 'message' </kbd>  
 	
 >my example
@@ -162,6 +156,7 @@ Changes to be committed:
 
 
 ## Step 15:  push changes to your 'working branch'
+<kbd> git status </kbd>  
 <kbd> git push origin <branch_wip> </kbd>  
 	
 >my example
@@ -184,4 +179,6 @@ Go to GitHub and refresh your browser.
 My url is:  https://github.com/reshamas/gitclass  
 
 Select green button "Compare and pull request"  
+
+---
 
