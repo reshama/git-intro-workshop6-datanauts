@@ -8,6 +8,9 @@ Click on the green button for your forked GitHub repo, and ensure it is showing 
 
 <img src="images/github_clone_button.png" align="left" height="40" width="180" >
 
+
+<img src="images/github_clone_button.png" alt="Drawing"  style="width: 100px;" style="height: 100px"/> 
+
 <img src="images/chrome_curlwget.png" alt="Drawing" style="width: 100px;" style="height: 100px"/>  
 
 
