@@ -9,7 +9,7 @@
 - Check box for `Initialize this repository with a README` :white_check_mark: :heavy_exclamation_mark:
 - Select green button `Create repository`
 
-## Step 2:  clone repo
+## Step 2:  copy URL for cloning
 
 Click on the green button for your forked GitHub repo, and ensure it is showing the url for **Clone with HTTPS**  (other option is "Clone with SSH").  Copy that URL.    <br> 
 <img src="../images/github_clone_button.png" align="left" height="40" width="180" >   <br> <br>
@@ -24,15 +24,13 @@ Go to your working directory
 >my example
 ```bash
 cd /Users/reshamashaikh/ds/gitsample
-```
+pwd
+/Users/reshamashaikh/ds/gitsample
+```  
 
 ## Step 4:  clone the repo  
 <kbd> git clone <url> </kbd> 
 >my example
-```bash
-pwd
-/Users/reshamashaikh/ds/gitsample
-```  
 ```bash
 git clone https://github.com/reshamas/gitclass.git
 Cloning into 'gitclass'...
@@ -40,21 +38,21 @@ remote: Counting objects: 3, done.
 remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 Unpacking objects: 100% (3/3), done.
 ```
-  
 
 ## Step 4:  `cd` into the repo
 <kbd> cd <repo_name> </kbd>
 >my example
 ```bash
-cd python_advanced 
+cd gitclass 
 ```
 
 ## Step 5:  look at remotes
 <kbd> git remote -v </kbd>
 >my example
 ```bash
-origin	https://github.com/reshamas/python_advanced.git (fetch)
-origin	https://github.com/reshamas/python_advanced.git (push)
+git remote -v
+origin	https://github.com/reshamas/gitclass.git (fetch)
+origin	https://github.com/reshamas/gitclass.git (push)
 ```
 
 ## Step 6:  add 'upstream' remote
