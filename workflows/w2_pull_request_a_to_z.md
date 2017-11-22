@@ -146,10 +146,11 @@ total 0
 
 ## Step 18 (optional):  copy changes over to master branch
 We'll submit the pull request from the `master` branch.  
-1. Switch to master branch
-2. Copy file over to master branch  
+1. Switch to master branch  
 <kbd> git checkout master </kbd>  
-
+2. Copy file over to master branch  
+<kbd> git checkout reshama_wip reshama/venus.py </kbd>  
+3. **A**dd / **C**ommit / **P**ush the file to master branch
 ```bash
 % pwd
 /Users/reshamashaikh/ds/gitsample/python_advanced/submissions
