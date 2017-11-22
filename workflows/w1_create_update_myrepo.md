@@ -191,9 +191,9 @@ Select green button "Compare and pull request"
 <kbd> git pull </kbd>  
 <kbd> git branch </kbd> <kbd> git branch reshama_wip </kbd>  
 <kbd> git branch </kbd> <kbd> git checkout reshama_wip </kbd>  
-<kbd>  ls </kbd>    		 
-<kbd> touch mercury.md </kbd>    		  
-<kbd>  ls </kbd>     
+<kbd>  ls </kbd>  
+<kbd> touch mercury.md </kbd>  
+<kbd>  ls </kbd>  
 <kbd>  git status </kbd> <kbd>  git add mercury.md </kbd>  		  
 <kbd>  git status </kbd> <kbd>  git commit -m 'adding first planet' </kbd>  		  
 <kbd>  git status </kbd> <kbd>  git push origin reshama_wip </kbd>  
