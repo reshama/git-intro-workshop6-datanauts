@@ -17,7 +17,7 @@ https://github.com/reshamas/python_advanced.git
 ```
 
 ### Step 3:  go to working directory (your local terminal)
-* go to whatever your working directory is
+Go to your working directory  
 >my example
 ```bash
 cd /Users/reshamashaikh/ds/gitsample
