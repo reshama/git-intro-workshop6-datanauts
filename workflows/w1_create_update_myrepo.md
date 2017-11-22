@@ -118,8 +118,9 @@ total 8
 ```
     
 ## Step 12:  add/stage a file
-<kbd> status <file_name> </kbd> 
-<kbd> git add <file_name> </kbd>  
+<kbd> git status <file_name> </kbd>  
+<kbd> git add <file_name> </kbd>   
+	
 >my example  
 ```bash
 git status
@@ -136,14 +137,16 @@ nothing added to commit but untracked files present (use "git add" to track)
 ```
 
 ## Step 13:  commit a file
-<kbd> status <file_name> </kbd>  
-<kbd> git commit -m 'message' </kbd>
+<kbd> git status <file_name> </kbd>   
+<kbd> git commit -m 'message' </kbd>  
+	
 >my example
 ```bash
 git status
 git commit -m 'adding first planet'
 ```
-```git
+	
+```bash
 % git status
 On branch reshama_wip
 Changes to be committed:
@@ -160,9 +163,12 @@ Changes to be committed:
 
 ## Step 14:  push changes to your 'working branch'
 <kbd> git push origin <branch_wip> </kbd>  
->my example
-`git push origin reshama_wip`
 	
+>my example
+```bash
+git push origin reshama_wip
+```	
+
 ## Step 15:  submit pull request (on GitHub)
 Go to GitHub and refresh your browser.  
 My url is:  https://github.com/reshamas/gitclass  
