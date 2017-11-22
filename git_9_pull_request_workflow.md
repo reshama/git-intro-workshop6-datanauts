@@ -80,13 +80,43 @@ This step copies changes from a remote repository to a local repository.
 `git checkout reshama_wip`
 
 ### Step 11:  create a file
-* create a folder with your name here:  https://github.com/WiMLDS/python_advanced/tree/master/submissions
-* `cd` into this folder, create a Python file with your name.  (Example:  `reshama.py`)
+Note:  We will submit a pull request to the repo and that file will go here:  https://github.com/WiMLDS/python_advanced/tree/master/submissions  
 
+- create a folder in the repo with your name here:  `python_advanced/submissions`
+- `cd` into this folder, create a folder with your name
+- create a Python file (Example:  `test_python_file.py`)
+
+<kbd> pwd </kbd>  
+<kbd> ls </kbd>  
+<kbd> cd submissions </kbd>
+<kbd> mkdir reshama </kbd>  
+<kbd>  cd reshama </kbd>  
+<kbd>  touch test_python_file.py </kbd>  
+
+>my example
+```bash
+% pwd
+/Users/reshamashaikh/ds/gitsample/python_advanced
+% ls
+total 24
+-rw-r--r--  1    66 Nov 22 07:31 README.md
+-rw-r--r--  1   506 Nov 22 07:31 q1_define_structures.md
+-rw-r--r--  1   328 Nov 22 07:31 q2_function.md
+drwxr-xr-x  6   204 Nov 22 07:31 submissions
+% cd submissions 
+% mkdir reshama
+% cd reshama
+% touch test_python_file.py
+% ls
+total 0
+-rw-r--r--  1   0 Nov 22 09:06 test_python_file.py
+% 
+```
+    
 ### Step 12:  add/stage a file
 <kbd> git add <file_name> </kbd>  
 >my example  
-`git add reshama.py`
+`git add test_python_file.py`
 
 ### Step 13:  commit a file
 <kbd> git commit -m 'message' </kbd>
