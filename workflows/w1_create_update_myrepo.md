@@ -55,34 +55,33 @@ origin	https://github.com/reshamas/gitclass.git (fetch)
 origin	https://github.com/reshamas/gitclass.git (push)
 ```
 
-## Step 6:  add 'upstream' remote
-<kbd> git remote add upstream <url> </kbd>
->my example
-```bash
-git remote add upstream https://github.com/WiMLDS/python_advanced.git
-```
-
-## Step 7:  look at remotes
-<kbd> git remote -v </kbd>  
->my example
-```bash
-origin	https://github.com/reshamas/python_advanced.git (fetch)
-origin	https://github.com/reshamas/python_advanced.git (push)
-upstream	https://github.com/WiMLDS/python_advanced.git (fetch)
-upstream	https://github.com/WiMLDS/python_advanced.git (push)
-```
-
 ## Step 8:  update a repo
 This step copies changes from a remote repository to a local repository.  
 **Note:**  this is a good step to practice even though the first time you clone a repo it will already be up to date.   
 
 <kbd> git pull </kbd> 
 
+## Step x:  list branches
+<kbd> git branch </kbd>  
+>my example
+```git
+git branch
+* master
+```
  
 ## Step 9:  create a working branch
 <kbd> git branch <branch_name> </kbd>
 >my example  
 `git branch reshama_wip`
+
+## Step x:  list branches
+<kbd> git branch </kbd>  
+>my example
+```git
+git branch
+* master
+  reshama_wip
+```
 
 ## Step 10:  switch to working branch
 <kbd> git checkout <branch_name> </kbd>  
