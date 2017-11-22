@@ -30,14 +30,14 @@ cd /Users/reshamashaikh/ds/gitsample
 git clone https://github.com/reshamas/python_advanced.git
 ```
 
-## Step 4:  `cd` into the repo
+## Step 5:  `cd` into the repo
 <kbd> cd <repo_name> </kbd>
 >my example
 ```bash
 cd python_advanced 
 ```
 
-## Step 5:  look at remotes
+## Step 6:  look at remotes
 <kbd> git remote -v </kbd>
 >my example
 ```bash
@@ -45,14 +45,14 @@ origin	https://github.com/reshamas/python_advanced.git (fetch)
 origin	https://github.com/reshamas/python_advanced.git (push)
 ```
 
-## Step 6:  add 'upstream' remote
+## Step 7:  add 'upstream' remote
 <kbd> git remote add upstream <url> </kbd>
 >my example
 ```bash
 git remote add upstream https://github.com/WiMLDS/python_advanced.git
 ```
 
-## Step 7:  look at remotes
+## Step 8:  look at remotes
 <kbd> git remote -v </kbd>  
 >my example
 ```bash
@@ -62,13 +62,13 @@ upstream	https://github.com/WiMLDS/python_advanced.git (fetch)
 upstream	https://github.com/WiMLDS/python_advanced.git (push)
 ```
 
-## Step 8:  update a repo
+## Step 9:  update a repo
 This step copies changes from a remote repository to a local repository.  
 **Note:**  this is a good step to practice even though the first time you clone a repo it will already be up to date.   
 
 <kbd> git pull </kbd> 
 
-## Step x:  list branches
+## Step 10:  list branches
 <kbd> git branch </kbd>  
 >my example
 ```git
@@ -76,12 +76,12 @@ git branch
 * master
 ```
  
-## Step 9:  create a working branch
+## Step 11:  create a working branch
 <kbd> git branch <branch_name> </kbd>
 >my example  
 `git branch reshama_wip`
 
-## Step x:  list branches
+## Step 12:  list branches
 <kbd> git branch </kbd>  
 >my example
 ```git
@@ -90,12 +90,12 @@ git branch
   reshama_wip
 ```
 
-## Step 10:  switch to working branch
+## Step 13:  switch to working branch
 <kbd> git checkout <branch_name> </kbd>  
 >my example  
 `git checkout reshama_wip`
 
-## Step 11:  create a file
+## Step 14:  create a file
 Note:  We will submit a pull request to the repo and that file will go here:  https://github.com/WiMLDS/python_advanced/tree/master/submissions  
 
 - create a folder in the repo with your name here:  `python_advanced/submissions`
@@ -129,21 +129,21 @@ total 0
 % 
 ```
     
-## Step 12:  add/stage a file
+## Step 15:  add/stage a file
 <kbd> git add <file_name> </kbd>  
 >my example  
 `git add test_python_file.py`
 
-## Step 13:  commit a file
+## Step 16:  commit a file
 <kbd> git commit -m 'message' </kbd>
 >my example
  `git commit -m 'adding my python test file`
  
-## Step 14:  push changes to your 'working branch'
+## Step 17:  push changes to your 'working branch'
 <kbd> git push origin <branch_wip> </kbd>  
 >my example
 `git push origin reshama_wip`
 
 
-## Step 15:  submit pull request (on GitHub)
+## Step 18:  submit pull request (on GitHub)
 
