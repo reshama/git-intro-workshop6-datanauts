@@ -89,37 +89,50 @@ git branch
 `git checkout reshama_wip`
 
 ## Step 11:  create a file
-Note:  We will submit a pull request to the repo and that file will go here:  https://github.com/WiMLDS/python_advanced/tree/master/submissions  
-
-- create a folder in the repo with your name here:  `python_advanced/submissions`
-- `cd` into this folder, create a folder with your name
-- create a Python file (Example:  `test_python_file.py`)
-
-<kbd> pwd </kbd>  
-<kbd> ls </kbd>  
-<kbd> cd submissions </kbd>  
-<kbd> mkdir reshama </kbd>  
-<kbd>  cd reshama </kbd>  
-<kbd>  touch test_python_file.py </kbd>  
+<kbd> touch mercury.md </kbd>  
+<kbd>  ls </kbd>  
+<kbd>  git status </kbd>  
+<kbd>  git add mercury.md </kbd>  
+<kbd>  git status </kbd>  
+<kbd>  git commit -m 'adding first planet' </kbd>  
+<kbd>  git status </kbd>  
+<kbd>  git push origin reshama_wip </kbd>  
 
 >my example
 ```bash
-% pwd
-/Users/reshamashaikh/ds/gitsample/python_advanced
-% ls
-total 24
--rw-r--r--  1    66 Nov 22 07:31 README.md
--rw-r--r--  1   506 Nov 22 07:31 q1_define_structures.md
--rw-r--r--  1   328 Nov 22 07:31 q2_function.md
-drwxr-xr-x  6   204 Nov 22 07:31 submissions
-% cd submissions 
-% mkdir reshama
-% cd reshama
-% touch test_python_file.py
-% ls
-total 0
--rw-r--r--  1   0 Nov 22 09:06 test_python_file.py
-% 
+% git status
+On branch reshama_wip
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	mercury.md
+
+nothing added to commit but untracked files present (use "git add" to track)
+% git add mercury.md 
+% git status
+On branch reshama_wip
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   mercury.md
+
+% git commit -m 'adding first planet'
+[reshama_wip 3950dd9] adding first planet
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 mercury.md
+% git status
+On branch reshama_wip
+nothing to commit, working tree clean
+
+% git push origin reshama_wip
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 273 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/reshamas/gitclass.git
+ * [new branch]      reshama_wip -> reshama_wip
+ 
 ```
     
 ## Step 12:  add/stage a file
