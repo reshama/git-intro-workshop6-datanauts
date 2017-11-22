@@ -1,12 +1,17 @@
 # Set Up
 
-## 1.  Let Git Know Who You Are
+## Step 1:  Let Git Know Who You Are
 
 ### Configure user name and email 
 `git config --global user.name "First Last"`  
 `git config --global user.email "myname@email.com"`  
 
-## 2. Create a Directory for Git Repos
+### Configure editor of choice
+`git config --global core.editor "nano -w"` 
+
+Other editor options can be found in [Setting Up Git](http://swcarpentry.github.io/git-novice/02-setup/)
+
+## Step 2. Create a Directory for Git Repos
 Navigate to your home directory where you want to create a directory for the git work.  
 For me, it is:  `/Users/reshamashaikh`  
 <kbd> cd /Users/reshamashaikh </kbd>  
