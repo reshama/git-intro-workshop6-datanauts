@@ -68,11 +68,27 @@ This step copies changes from a remote repository to a local repository.
 
 <kbd> git pull </kbd> 
 
+## Step x:  list branches
+<kbd> git branch </kbd>  
+>my example
+```git
+git branch
+* master
+```
  
 ## Step 9:  create a working branch
 <kbd> git branch <branch_name> </kbd>
 >my example  
 `git branch reshama_wip`
+
+## Step x:  list branches
+<kbd> git branch </kbd>  
+>my example
+```git
+git branch
+* master
+  reshama_wip
+```
 
 ## Step 10:  switch to working branch
 <kbd> git checkout <branch_name> </kbd>  
