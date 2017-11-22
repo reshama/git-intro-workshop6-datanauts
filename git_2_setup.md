@@ -8,14 +8,19 @@
 
 ## 2. Create a Directory for Git Repos
 * navigate to where you want to create a directory:  for me, it is:  `/Users/reshamashaikh`
-* create a directory:  `mkdir git_work`
-* go into this directory:  `cd git_work`
+* create a directory:  
+>my example
+```bash
+pwd
+/Users/reshamashaikh
+mkdir ds
+mkdir ds/gitsample
+cd ds/gitsample
+```
+* go into this directory:  `cd gitsample`
 
 For me, it is:   
 `pwd`  
-`/Users/reshamashaikh/git_work`  
+`/Users/reshamashaikh/ds/gitsample`
 
-Other options for directory location:  
-- `/Users/reshamashaikh/ds/git_work` 
-- `/Users/reshamashaikh/Desktop/git_work` 
 
