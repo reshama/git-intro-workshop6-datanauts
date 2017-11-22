@@ -19,6 +19,8 @@
 ```bash
 pwd
 /Users/reshamashaikh
+```
+```bash
 mkdir ds
 mkdir ds/gitsample
 cd ds/gitsample
