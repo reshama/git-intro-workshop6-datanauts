@@ -184,9 +184,6 @@ git push origin master
 <kbd> git pull </kbd>  or <kbd> git pull upstream master </kbd>  
 <kbd> git branch </kbd> <kbd> git branch reshama_wip </kbd>  
 <kbd> git branch </kbd> <kbd> git checkout reshama_wip </kbd>  
-<kbd> ls </kbd>  
-<kbd> pwd </kbd>  
-<kbd> ls </kbd>  
 <kbd> cd submissions </kbd>  
 <kbd> mkdir reshama </kbd>  
 <kbd>  cd reshama </kbd>  
