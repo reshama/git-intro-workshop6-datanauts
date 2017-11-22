@@ -10,7 +10,8 @@
 Navigate to your home directory where you want to create a directory for the git work.  
 For me, it is:  `/Users/reshamashaikh`  
 <kbd> cd /Users/reshamashaikh </kbd>  
-* create a directory:  
+
+Create the directories:  
 <kbd>  mkdir ds  </kbd>  
 <kbd>  mkdir ds/gitsample </kbd>  
 <kbd>  cd ds/gitsample </kbd>  
