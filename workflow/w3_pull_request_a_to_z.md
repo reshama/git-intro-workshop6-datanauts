@@ -1,4 +1,4 @@
-# Submit Pull Request / Workflow
+# Workflow:  Submit Pull Request, Steps A to Z
 
 ## Step 1:  fork the repo (on GitHub)
 https://github.com/WiMLDS/python_advanced
