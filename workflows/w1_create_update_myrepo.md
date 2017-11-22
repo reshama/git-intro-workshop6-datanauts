@@ -163,3 +163,8 @@ To https://github.com/reshamas/gitclass.git
 
 
 ## Step 15:  submit pull request (on GitHub)
+Go to GitHub and refresh your browser.  
+My url is:  https://github.com/reshamas/gitclass  
+
+Select green button "Compare and pull request"  
+
