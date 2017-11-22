@@ -169,7 +169,17 @@ Changes to be committed:
 git push origin reshama_wip
 ```	
 
-## Step 15:  submit pull request (on GitHub)
+```bash
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 273 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/reshamas/gitclass.git
+ * [new branch]      reshama_wip -> reshama_wip
+ ```
+ 
+## Step 16:  submit pull request (on GitHub)
 Go to GitHub and refresh your browser.  
 My url is:  https://github.com/reshamas/gitclass  
 
