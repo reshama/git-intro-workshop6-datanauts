@@ -8,7 +8,7 @@ task:  end changes from local computer to GitHub repo (sync repos)
 |  2    | `git commit -m "message"` | log the change | changes are recorded in Git (interaction is with local repo) |  
 |  3    | `git push`                | finalize the change | changes are pushed from Git (local, terminal) to GitHub (browser account, remote) | 
  
-
+**Note:**  It is better to make many commits with smaller changes rather than of one commit with massive changes: small commits are easier to read and review.
 
 ## Git:  add, commit and push a file
 
