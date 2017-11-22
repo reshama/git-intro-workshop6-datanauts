@@ -88,7 +88,7 @@ Note:  We will submit a pull request to the repo and that file will go here:  ht
 
 <kbd> pwd </kbd>  
 <kbd> ls </kbd>  
-<kbd> cd submissions </kbd>
+<kbd> cd submissions </kbd>  
 <kbd> mkdir reshama </kbd>  
 <kbd>  cd reshama </kbd>  
 <kbd>  touch test_python_file.py </kbd>  
