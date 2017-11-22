@@ -11,6 +11,9 @@
 
 Other editor options can be found in [Setting Up Git](http://swcarpentry.github.io/git-novice/02-setup/)
 
+### Configure simple push (do this one time only)
+`git config --global push.default simple`
+
 ## Step 2. Create a Directory for Git Repos
 Navigate to your home directory where you want to create a directory for the git work.  
 For me, it is:  `/Users/reshamashaikh`  
