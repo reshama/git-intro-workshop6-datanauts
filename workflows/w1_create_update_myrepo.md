@@ -89,6 +89,7 @@ git branch
 `git checkout reshama_wip`
 
 ## Step 11:  create a file
+<kbd>  ls </kbd>  
 <kbd> touch mercury.md </kbd>  
 <kbd>  ls </kbd>  
 <kbd>  git status </kbd>  
@@ -100,6 +101,16 @@ git branch
 
 >my example
 ```bash
+ls
+total 8
+-rw-r--r--  1   32 Nov 22 09:39 README.md
+% touch mercury.md
+% ls
+total 8
+-rw-r--r--  1   32 Nov 22 09:39 README.md
+-rw-r--r--  1    0 Nov 22 09:49 mercury.md
+
+	mercury.md
 % git status
 On branch reshama_wip
 Untracked files:
