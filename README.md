@@ -1,3 +1,5 @@
+![git logo](images/git.png)
+
 # Intro to Git Workshop
 
 #### Contact Info
