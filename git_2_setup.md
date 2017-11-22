@@ -12,7 +12,7 @@
 * create a directory:  
 <kbd>  mkdir ds  </kbd>  
 <kbd>  mkdir ds/gitsample </kbd>  
-<kbd>  cd ds/gitsample <kbd>  
+<kbd>  cd ds/gitsample </kbd>  
   
 >my example
 ```bash
@@ -21,10 +21,8 @@ pwd
 mkdir ds
 mkdir ds/gitsample
 cd ds/gitsample
+pwd
+/Users/reshamashaikh/ds/gitsample
 ```
-
-For me, it is:   
-`pwd`  
-`/Users/reshamashaikh/ds/gitsample`
 
 
