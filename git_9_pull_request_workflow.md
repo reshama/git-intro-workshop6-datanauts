@@ -121,7 +121,7 @@ total 0
 ### Step 13:  commit a file
 <kbd> git commit -m 'message' </kbd>
 >my example
- `git commit -m 'adding my python name file`
+ `git commit -m 'adding my python test file`
  
 ### Step 14:  push changes to your 'working branch'
 <kbd> git push origin <branch_wip> </kbd>  
