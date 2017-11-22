@@ -16,7 +16,7 @@ https://github.com/WiMLDS/python_advanced
 #### Step xb:  look at remotes
 <kbd> git remote -v </kbd>
 
-### Step 3:  update a repo:  `git pull`
+### Step 3:  update a repo:  <kbd> git pull </kbd>
 * copies changes from a remote repository to a local repository.
 **Note:**  this is a good step to practice even though the first time you clone a repo it will already be up to date.  
 syntax:  
