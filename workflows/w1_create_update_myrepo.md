@@ -1,20 +1,21 @@
 # Workflow:  Create and Update My Repo
 
 ## Step 1:  create a repo (on GitHub)
+- Click on `+` next to your profile picture
+- Select `New Repository`
+- Repository name:  `gitclass`
+- Description (optional):  `test project for git`
+- `Public` repos are free
+- Check box for `Initialize this repository with a README` :white_check_mark: :heavy_exclamation_mark:
+- Select green button `Create repository`
 
-
-
-## Step 2:  copy forked url for cloning 
+## Step 2:  clone repo
 <img src="../images/github_clone_button.png" align="left" height="40" width="180" >    
-Click on the green button for your forked GitHub repo, and ensure it is showing the url for "Clone with HTTPS"  (other option is "Clone with SSH").  Copy that URL.    
-
-
-  
-    
+Click on the green button for your forked GitHub repo, and ensure it is showing the url for "**Clone with HTTPS**"  (other option is "Clone with SSH").  Copy that URL.    
     
 >my example  
 ```text
-https://github.com/reshamas/python_advanced.git
+https://github.com/reshamas/gitclass.git
 ```
 
 ## Step 3:  go to working directory (your local terminal)
@@ -28,8 +29,17 @@ cd /Users/reshamashaikh/ds/gitsample
 <kbd> git clone <url> </kbd> 
 >my example
 ```bash
-git clone https://github.com/reshamas/python_advanced.git
+pwd
+/Users/reshamashaikh/ds/gitsample
+```  
+```bash
+git clone https://github.com/reshamas/gitclass.git
+Cloning into 'gitclass'...
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
 ```
+  
 
 ## Step 4:  `cd` into the repo
 <kbd> cd <repo_name> </kbd>
