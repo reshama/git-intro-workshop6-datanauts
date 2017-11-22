@@ -1,9 +1,11 @@
+![git logo](images/git.png)
+
 # Intro to Git Workshop
 
 #### Contact Info
 Presenter:  Reshama Shaikh  
 LinkedIn:  https://www.linkedin.com/in/reshamas   
-Twitter:  https://twitter.com/reshamas
+Twitter:  https://twitter.com/reshamas  
 GitHub:  https://github.com/reshamas  
 Email:   rs2715@stern.nyu.edu  
 
