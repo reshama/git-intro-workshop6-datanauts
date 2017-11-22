@@ -4,7 +4,8 @@
 https://github.com/WiMLDS/python_advanced
 
 ### Step 2:  copy forked url for cloning 
-* copy HTTPS url
+Click on this green button, and ensure it is showing the url for "Clone with HTTPS"  (other option is "Clone with SSH")
+
 >my example  
 ```text
 https://github.com/reshamas/python_advanced.git
