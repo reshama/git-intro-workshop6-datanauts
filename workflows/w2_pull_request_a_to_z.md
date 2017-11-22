@@ -144,6 +144,26 @@ total 0
 >my example
 `git push origin reshama_wip`
 
+## Step 18 (optional):  copy changes over to master branch
+We'll submit the pull request from the `master` branch.  
+1. Switch to master branch
+2. Copy file over to master branch  
+<kbd> git checkout master </kbd>  
 
-## Step 18:  submit pull request (on GitHub)
+```bash
+% pwd
+/Users/reshamashaikh/ds/gitsample/python_advanced/submissions
+ls reshama
+git checkout master
+git checkout reshama_wip reshama/venus.py
+git status
+git add reshama/venus.py
+git status
+git commit -m ' adding venus file to master branch'
+git status
+git push origin master
+``` 
+
+
+## Step 19:  submit pull request (on GitHub)
 
