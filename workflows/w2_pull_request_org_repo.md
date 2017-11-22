@@ -170,6 +170,8 @@ git push origin master
 
 ## Step 19:  submit pull request (on GitHub)
 
+Select green button "Compare and pull request"  
+<img src="../images/pull_request_button.png" align="left" height="40" width="2000" >   <br> <br>
 
 ---
 
