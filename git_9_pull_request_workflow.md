@@ -63,7 +63,7 @@ upstream	https://github.com/WiMLDS/python_advanced.git (push)
 ```
 
 ### Step 8:  update a repo
-* copies changes from a remote repository to a local repository.
+This step copies changes from a remote repository to a local repository.  
 **Note:**  this is a good step to practice even though the first time you clone a repo it will already be up to date.   
 
 <kbd> git pull </kbd> 
