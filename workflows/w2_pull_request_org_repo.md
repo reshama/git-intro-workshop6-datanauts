@@ -66,7 +66,9 @@ upstream	https://github.com/WiMLDS/python_advanced.git (push)
 This step copies changes from a remote repository to a local repository.  
 **Note:**  this is a good step to practice even though the first time you clone a repo it will already be up to date.   
 
-<kbd> git pull </kbd> 
+<kbd> git pull </kbd>  
+or a more complete syntax to use is:  
+<kbd> git pull upstream master </kbd>  
 
 ## Step 10:  list branches
 <kbd> git branch </kbd>  
