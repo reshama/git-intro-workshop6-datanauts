@@ -10,14 +10,11 @@
 ## Select green button "Clone or download" and copy url
 
 ### Go to directory on local computer  
-For me, it is: 
-`/Users/reshamashaikh/git_work`  
-
+For me, it is: `/Users/reshamashaikh/ds/gitsample`  
 >my example
 ```bash
-~/git_work  master ✗                                                                  ◒  
-▶ pwd
-/Users/reshamashaikh/git_work
+pwd
+/Users/reshamashaikh/ds/gitsample
 ```
 
 #### Clone repo
@@ -25,8 +22,7 @@ For me, it is:
 
 >my example  
 ```bash
-~/git_work  master ✗                                                                  ◒  
-▶ git clone https://github.com/reshamas/starting_git.git
+git clone https://github.com/reshamas/starting_git.git
 Cloning into 'starting_git'...
 remote: Counting objects: 15, done.
 remote: Compressing objects: 100% (10/10), done.
@@ -36,22 +32,11 @@ Checking connectivity... done.
 ```
 
 ### `cd` into cloned repo
+<kbd> ls </kbd>  
+<kbd> cd starting_git </kbd>
+<kbd> ls </kbd>  
+<kbd> pwd </kbd>  
 
-```bash
-▶ pwd
-/Users/reshamashaikh/git_work/starting_git
-
-▶ ls
-total 0
-drwxr-xr-x  7   238 Nov 14 11:29 data-science-from-scratch
-drwxr-xr-x  6   204 Nov 14 11:48 starting_git
-
-~/git_work  master ✗                                                                  ◒  
-▶ cd starting_git 
-
-~/git_work/starting_git  master ✔                                                    6m  
-▶ 
-```
 ## Check out the remote
 **Remotes** are copies of a repo on another computer **(or on a service like Github)**  
 
@@ -85,15 +70,10 @@ print("My name is Reshama")
 ```
 
 ```bash
-~/git_work/starting_git  master ✔                                                   11m  
 ▶ emacs print_name.py
 
-~/git_work/starting_git  master ✗                                                 11m ◒  
 ▶ python print_name.py 
 Hello, my name is Reshama
-
-~/git_work/starting_git  master ✗                                                 12m ◒  
-▶ 
 ```
 
 ## We made a change!  How does git track it? `git status`
@@ -109,8 +89,6 @@ Untracked files:
 
 nothing added to commit but untracked files present (use "git add" to track)
 
-~/git_work/starting_git  master ✗                                                 14m ◒  
-▶ 
 ```
 ---
 
