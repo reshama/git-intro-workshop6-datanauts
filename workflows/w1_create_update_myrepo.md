@@ -1,4 +1,4 @@
-# Workflow:  Create and Update My Repo
+# Workflow 1:  Create and Update My Repo
 
 ## Step 1:  create a repo (on GitHub)
 - Click on `+` next to your profile picture
