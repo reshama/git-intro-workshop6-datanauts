@@ -1,23 +1,33 @@
 # Submit Pull Request / Workflow
 
-### Step 1:  fork the repo
+### Step 1:  fork the repo (on GitHub)
 https://github.com/WiMLDS/python_advanced
 
-### Step 2:  clone the repo
+### Step 2:  clone the repo  
 <kbd> git clone </kbd> copies a remote repository to create a local repository with a remote called `origin` automatically set up.
 
-### Step x:  update a repo:  `git pull`
+### Step x:  go to working directory (your local terminal)
+
+### Step x:  add remote
+
+<kbd> git remote add origin <url> </kbd>
+>my example
+
+#### Step xb:  look at remotes
+<kbd> git remote -v </kbd>
+
+### Step 3:  update a repo:  `git pull`
 * copies changes from a remote repository to a local repository.
 **Note:**  this is a good step to practice even though the first time you clone a repo it will already be up to date.  
 syntax:  
 <kbd> git pull </kbd> 
  
-### Step 3:  create a working branch
+### Step 4:  create a working branch
 syntax:  `git branch <branch_name>`
 >my example  
 `git branch reshama_wip`
 
-### Step 4:  switch to working branch
+### Step 5:  switch to working branch
 syntax:  `git checkout <branch_name>`
 >my example  
 `git checkout reshama_wip`
@@ -40,3 +50,7 @@ syntax:  `git commit -m 'message'`
 syntax:  `git push origin <branch_wip>`  
 >my example
 `git push origin reshama_wip`
+
+
+### Step x:  submit pull request (on GitHub)
+
