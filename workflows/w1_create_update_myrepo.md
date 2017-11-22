@@ -161,7 +161,7 @@ Changes to be committed:
 ```
 
 
-## Step 15:  push changes to your 'working branch'
+## Step 16:  push changes to your 'working branch'
 <kbd> git push origin <branch_wip> </kbd>  
 	
 >my example
