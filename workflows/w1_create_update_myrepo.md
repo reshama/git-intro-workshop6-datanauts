@@ -102,8 +102,6 @@ git branch
 >my example
 ```bash
 ls
-```
-```bash
 touch mercury.md
 ```
 ```bash
