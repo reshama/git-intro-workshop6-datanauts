@@ -18,14 +18,13 @@ This sets a file for staging:
 
 >my example  
 ```
-~/git_work/starting_git  master ✗                                                 14m ◒  
-▶ git add print_name.py
+git add print_name.py
 ```
 
 
 
 ```git
-▶ git status
+git status
 On branch master
 Your branch is up-to-date with 'origin/master'.
 Changes to be committed:
@@ -39,8 +38,6 @@ Untracked files:
 	print_name.py~
 
 
-~/git_work/starting_git  master ✗                                               17m ✚ ◒  
-▶ 
 ```
 
 ### `git commit -m 'message'`
@@ -51,7 +48,6 @@ Untracked files:
  1 file changed, 1 insertion(+)
  create mode 100644 print_name.py
 
-~/git_work/starting_git  master ✗                                                  0m ◒  
 ▶ git status
 On branch master
 Your branch is ahead of 'origin/master' by 1 commit.
@@ -63,8 +59,6 @@ Untracked files:
 
 nothing added to commit but untracked files present (use "git add" to track)
 
-~/git_work/starting_git  master ✗                                                  0m ◒  
-▶ 
 ```
 
 ### `git push` (push changes up to GitHub browser)
