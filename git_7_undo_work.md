@@ -14,7 +14,6 @@
 | `git revert`	  | File-level	        | (N/A) |
 |                |                    |                |
 | `git reset`  *  | Commit-level       | Discard commits in a private branch or throw away uncommited changes  |  
-| `git reset`  *  | File-level	        | Unstage a file |
 * use `git revert` over `git reset`; it is better practice
 
 ---
