@@ -30,7 +30,7 @@ Example:
 * `origin`   [your forked repo]
 
 ## Branches
-Branching means you diverge from the main line of development and continue to do work without changing the main line. 
+Branching means you diverge from the main line of development and continue to do work without changing the main line.  Think of it as "a working folder."
 
 
 ## Account settings
