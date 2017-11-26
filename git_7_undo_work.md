@@ -6,6 +6,7 @@
 |----------------|--------------------|------------------|
 | `git checkout <file>`  |            | Undo changes to a file  |
 | `git reset HEAD <file>`  |          | Undo a `git add <file>` |
+| `git revert HEAD~` |                | Revert last commit |
 |                |                    |                |
 | `git checkout` | Commit-level	      | Switch between branches or inspect old snapshots |
 | `git checkout` | File-level	        | Discard changes in the working directory |
