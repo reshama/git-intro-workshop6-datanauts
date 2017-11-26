@@ -47,19 +47,20 @@ Date:   Tue May 24 11:04:06 2016 -0400
 reshama$ 
 ```  
 
-## How to undo an add (undo a staged file)
-```
-git reset HEAD <file>       
-```
- 
 ## Discard uncommitted changes to a file
 Situation:  you've changed a file, but not yet committed the changes  
  
 ```bash
-git checkout README
+git checkout README.md
 ```
 
-## Revert Commit
+## How to undo an add (undo a staged file)
+```
+git reset HEAD <file>       
+```
+
+
+## Revert Commit (* recommended way)
 **Reverting undoes a commit by creating a new commit. This is a safe way to undo changes, as it has no chance of re-writing the commit history.** For example, the following command will figure out the changes contained in the 2nd to last commit, create a new commit undoing those changes, and tack the new commit onto the existing project.  
 ```bash
 git checkout branch_name
@@ -69,7 +70,7 @@ git revert HEAD~2
  
 ---
 
-## How to undo a commit
+## How to Undo a Commit
 On the commit-level, resetting is a way to move the tip of a branch to a different commit. This can be used to remove commits from the current branch. For example, the following command moves the hotfix branch backwards by two commits.
 
 ```console
