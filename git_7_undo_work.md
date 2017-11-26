@@ -4,9 +4,12 @@
 
 | Command        | Scope              | Common use cases |    
 |----------------|--------------------|------------------|
+| `git checkout <file>`  |            | Undo changes to a file  |
+| `git reset HEAD <file>`  |          | Undo a `git add <file>` |
+|                |                    |                |
 | `git checkout` | Commit-level	      | Switch between branches or inspect old snapshots |
 | `git checkout` | File-level	        | Discard changes in the working directory |
-|                |                    |                |
+|                |                    |                | 
 | `git revert`	  | Commit-level	      | Undo commits in a public branch |
 | `git revert`	  | File-level	        | (N/A) |
 |                |                    |                |
@@ -14,7 +17,7 @@
 | `git reset`  *  | File-level	        | Unstage a file |
 * use `git revert` over `git reset`; it is better practice
 
-
+---
 ## Log of Commits
 #### View log of Git
 ```bash
@@ -46,7 +49,7 @@ Date:   Tue May 24 11:04:06 2016 -0400
     adding test3 file
 reshama$ 
 ```  
-
+---
 ## Discard uncommitted changes to a file
 Situation:  you've changed a file, but not yet committed the changes  
  
