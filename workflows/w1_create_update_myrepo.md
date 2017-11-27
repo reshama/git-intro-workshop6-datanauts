@@ -1,6 +1,6 @@
 # Workflow 1:  Create and Update My Repo
 
-## Step 1:  create a repo (on GitHub)
+## Step 1a:  create a repo (on GitHub)
 - Click on `+` next to your profile picture
 - Select `New Repository`
 - Repository name:  `gitclass`
@@ -8,6 +8,8 @@
 - `Public` repos are free
 - Check box for `Initialize this repository with a README` :white_check_mark: :heavy_exclamation_mark:
 - Select green button `Create repository`
+
+## Step 1b:  add a file and save it (optional step)
 
 ## Step 2:  copy URL for cloning
 
