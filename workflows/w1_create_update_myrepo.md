@@ -38,7 +38,7 @@ pwd
 ```  
 
 ## Step 5:  clone the repo  
-<kbd> git clone <url> </kbd> 
+<kbd> git clone <url_name> </kbd> 
 >my example
 ```bash
 git clone https://github.com/reshamas/gitclass.git
@@ -119,16 +119,10 @@ total 8
 
 	mercury.md
 ```
-    
-## Step 14:  add/stage a file
+
+## Step 14:  get status of repo
 <kbd> git status </kbd>  
-<kbd> git add <file_name> </kbd>   
-	
->my example  
-```bash
-git status
-git add mercury.md 
-```
+>my example
 ```bash
 % git status
 On branch reshama_wip
@@ -136,19 +130,22 @@ Untracked files:
   (use "git add <file>..." to include in what will be committed)
 	mercury.md
 nothing added to commit but untracked files present (use "git add" to track)
+```
+    
+## Step 15:  add/stage a file
+<kbd> git add <file_name> </kbd>   
+	
+>my example  
+```bash
+git add mercury.md 
+```
+```bash
 % git add mercury.md 
 ```
 
-## Step 15:  commit a file
-<kbd> git status </kbd>   
-<kbd> git commit -m 'message' </kbd>  
-	
+## Step 16:  get status of repo
+<kbd> git status </kbd>  
 >my example
-```bash
-git status
-git commit -m 'adding first planet'
-```
-	
 ```bash
 % git status
 On branch reshama_wip
@@ -156,16 +153,36 @@ Changes to be committed:
   (use "git reset HEAD <file>..." to unstage)
 
 	new file:   mercury.md
+```
 
+## Step 17:  commit a file  
+<kbd> git commit -m 'message' </kbd>  
+	
+>my example
+```bash
+git commit -m 'adding first planet'
+```
+	
+```bash
 % git commit -m 'adding first planet'
 [reshama_wip 3950dd9] adding first planet
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 mercury.md
 ```
 
-
-## Step 16:  push changes to your 'working branch'
+## Step 18:  get status of repo
 <kbd> git status </kbd>  
+>my example
+```bash
+% git status
+On branch reshama_wip
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   mercury.md
+```
+
+## Step 19:  push changes to your 'working branch' 
 <kbd> git push origin <branch_wip> </kbd>  
 	
 >my example
@@ -183,11 +200,11 @@ To https://github.com/reshamas/gitclass.git
  * [new branch]      reshama_wip -> reshama_wip
  ```
  
-## Step 17:  look at files on working branch on GitHub
+## Step 20:  look at files on working branch on GitHub
 <kbd> git status </kbd>  
 <kbd> git push origin <branch_wip> </kbd> 
 	
-## Step 18:  submit pull request (on GitHub)
+## Step 21:  submit pull request (on GitHub)
 Go to GitHub and refresh your browser.  
 My url is:  https://github.com/reshamas/gitclass  
 
