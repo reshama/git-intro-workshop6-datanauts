@@ -33,6 +33,8 @@ Go to your working directory
 >my example
 ```bash
 cd /Users/reshamashaikh/ds/gitsample
+```
+```bash
 pwd
 /Users/reshamashaikh/ds/gitsample
 ```  
@@ -42,6 +44,8 @@ pwd
 >my example
 ```bash
 git clone https://github.com/reshamas/gitclass.git
+```
+```bash
 Cloning into 'gitclass'...
 remote: Counting objects: 3, done.
 remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
