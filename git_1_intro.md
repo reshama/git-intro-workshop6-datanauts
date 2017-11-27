@@ -21,7 +21,7 @@ Version control systems are a category of software tools that help a software te
 	* *Track steps* — What happened while you were sleeping
 	* *Branching and merging* — Work in parallel and bring it back together
 	
-
+---
 ## Remotes 
 Remotes are copies of a repo on another computer **(or on a service like Github)**  
 
