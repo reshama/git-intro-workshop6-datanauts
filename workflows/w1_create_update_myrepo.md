@@ -71,6 +71,7 @@ origin	https://github.com/reshamas/gitclass.git (push)
 
 ## Step 8:  update a repo
 This step copies changes from a remote repository to a local repository.  
+:key:  Do this **before starting work in a repository so you have the most up-to-date-changes.**   
 **Note:**  this is a good step to practice even though the first time you clone a repo it will already be up to date.   
 
 <kbd> git pull </kbd> 
