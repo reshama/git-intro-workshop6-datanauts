@@ -145,9 +145,6 @@ nothing added to commit but untracked files present (use "git add" to track)
 ```bash
 git add mercury.md 
 ```
-```bash
-% git add mercury.md 
-```
 
 ## Step 16:  get status of repo
 <kbd> git status </kbd>  
